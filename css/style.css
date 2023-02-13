@@ -52,13 +52,6 @@ a:hover {
   border: 2px solid lightblue;
 }
 
-.current_link {
-  color: white;
-  text-decoration: underline;
-  text-underline-offset: 6px;
-  padding: 5px;
-}
-
 h1 {
   font-size: 80px;
   font-weight: bold;
@@ -84,6 +77,13 @@ footer {
   text-align: center;
 }
 
+.current_link {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  padding: 5px;
+}
+
 .index_footer {
   position: absolute;
   bottom: 0;
@@ -96,10 +96,4 @@ footer {
 .margins {
   margin-left: 40px;
   margin-right: 40px;
-}
-
-.front_page_img {
-  width: 100%;
-  padding: 1px;
-  border: 3px solid black;
 }
